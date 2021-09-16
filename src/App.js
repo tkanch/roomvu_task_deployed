@@ -37,12 +37,12 @@ function App() {
     
     setTimeout(function(){
     document.querySelector('#overlay1').style.display = "block";
-    }, 6000);
+    }, 10000);
    
    setTimeout(function(){
     document.querySelector('#overlay1').style.opacity = "0"; 
     document.querySelector('#overlay2').style.display = "block";
-    }, 10000);
+    }, 15000);
 
   setTimeout(function(){
     document.querySelector('#overlay2').style.opacity = "0"; 
